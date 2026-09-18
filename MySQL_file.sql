@@ -8,15 +8,15 @@ CREATE TABLE Achievers (
 );
 
 INSERT INTO Achievers (RollNo, Name, Age, Stream, DOB)
-VALUES (1, 'Sani', 15, 'Arts', '2011-05-06'),
+VALUES (1, 'Sahil', 15, 'Arts', '2011-05-06'),
        (2, 'Sanskriti', 18, 'Science', NULL);
 
 ALTER TABLE Achievers
-    ADD Address VARCHAR(50),
-    ADD phone VARCHAR(11);
+ADD Address VARCHAR(80),
+ADD phone VARCHAR(1230);
 
 UPDATE Achievers
 SET Address = 'Tokha-4',
-    phone = '9849012338';
+    phone = '9849012330';
 
-SELECT * FROM Achievers;   
+SELECT * FROM Achievers;
